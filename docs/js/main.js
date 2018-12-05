@@ -177,9 +177,8 @@
     });
   };
 
-  if (($(window).width() >= 1024) && (mobileTest === false)) {
     init_progress_bar();
-  }
+  
 
 
   /* Navigation Panel */
