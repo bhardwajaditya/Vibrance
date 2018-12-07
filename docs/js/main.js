@@ -12,18 +12,11 @@
     $("html").addClass("no-mobile");
   }
 
-//   document.addEventListener('DOMContentLoaded', function () {
-//   particleground(document.getElementById('particle-ground'), {
-//     dotColor: '#5cbdaa',
-//     lineColor: '#5cbdaa'
-//   });
-  
-// }, false);
 
   /* Page Loader */
 
   $(window).load(function() {
-    $('.page-loader').delay(600).fadeOut('slow');
+    $('.page-loader').delay(1000).fadeOut('slow');
   });
 
 
