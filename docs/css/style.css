@@ -37,6 +37,22 @@ a:focus {
 ul {
   list-style-type: none;
 }
+
+
+/* video styling */
+.yt-video{
+  margin: auto;
+  padding-left: 15vw;
+  padding-right: 18vw;  
+  /* width: 80vw; */
+}
+.iframe{
+  margin: auto;
+}
+
+
+
+
 /* ==============================
    Typography
    ============================== */
