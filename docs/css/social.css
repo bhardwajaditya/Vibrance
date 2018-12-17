@@ -1,0 +1,123 @@
+body {
+    background-color: #cacaca;
+  }
+  
+  #socialarea {
+    position: fixed;
+    left: 0;
+    top: 30%;
+    width: 40px;
+    z-index: 9999;
+  }
+  
+  #socialarea:hover {
+    cursor: pointer;
+  }
+  
+  #socialarea ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #socialarea li {
+    text-align: center;
+    width: 100%;
+  }
+  
+  #socialarea li a {
+    line-height: 50px;
+    color: white;
+  }
+  
+  #socialarea .facebook_social {
+    background-color: #3a579a;
+    transition: 400ms;
+  }
+  
+  #socialarea .facebook_social:hover {
+    background-color: #2b4071;
+  }
+  
+  #socialarea .twitter_social {
+    background-color: #00abf0;
+    transition: 400ms;
+  }
+  
+  #socialarea .twitter_social:hover {
+    background-color: #0184b9;
+  }
+  
+  #socialarea .googleplus_social {
+    background-color: #df4a32;
+    transition: 400ms;
+  }
+  
+  #socialarea .googleplus_social:hover {
+    background-color: #bc3e2a;
+  }
+  
+  #socialarea .pinterest_social {
+    background-color: #cd1c1f;
+    transition: 400ms;
+  }
+  
+  #socialarea .pinterest_social:hover {
+    background-color: #b0171a;
+  }
+  
+  #socialarea .linkedin_social {
+    background-color: #127bb6;
+    transition: 400ms;
+  }
+  
+  #socialarea .linkedin_social:hover {
+    background-color: #0c5680;
+  }
+  
+  .arrow_social {
+    opacity: 0;
+    color: white;
+    transition: 400ms;
+  }
+  
+  .arrow_social:hover {
+    color: white;
+  }
+  
+  .btnopenclose {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 20px !important;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    opacity: 0;
+    transition: 400ms;
+  }
+  
+  #socialarea:hover .arrow_social,
+  #socialarea:hover .btnopenclose {
+    opacity: 1;
+  }
+  
+  .remove {
+    left: -35px !important;
+    position: relative;
+    transition: 400ms;
+  }
+  
+  .as_selected {
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(180deg);
+    opacity: 1;
+    margin: initial;
+  }
+  
+  .as_selected .arrow_social {
+    opacity: 1;
+    left: 0px;
+    position: relative;
+    color: white;
+  }
