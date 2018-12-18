@@ -121,3 +121,14 @@ body {
     position: relative;
     color: white;
   }
+
+@media(max-width: 450px){
+	#socialarea {
+    position: fixed;
+    left: 0;
+    top: 30%;
+    width: 0px;
+    z-index: -20;
+  }
+
+	}
