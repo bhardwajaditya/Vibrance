@@ -42,8 +42,8 @@ ul {
 /* video styling */
 .yt-video{
   margin: auto;
-  padding-left: 15vw;
-  padding-right: 18vw;  
+  /* padding-left: 15vw;
+  padding-right: 18vw;   */
   /* width: 80vw; */
 }
 .iframe{
