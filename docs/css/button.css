@@ -65,4 +65,63 @@ transform: scale(1,1) translate(0px, 0px);
   -webkit-animation: bounce 0.75s infinite;
   cursor: pointer;
       }
+      .wrapper1{
+        margin: 10px;
+      }
   }
+
+  .wrapper1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper1 .container .btn1 {
+  width: 200px;
+  height: 200px;
+  color: #3895D3;
+  text-align: center;
+  font-size: 80%;
+  line-height: 200px;
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  border: 1px solid #3895D3;
+  border-radius: 50%;
+  transition: 300ms ease;
+}
+.wrapper1 .container .btn1:hover {
+  color: #3895D3;
+  border-color: #3895D3;
+  /*background-color: rgba(37, 127, 127, 0.25);*/
+}
+.wrapper1 .container .border {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+.wrapper1 .container .border .line {
+  position: absolute;
+  fill: none;
+  stroke: #3895D3;
+  stroke-width: 1px;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transition: all 500ms ease-in-out;
+}
+.wrapper1 .container .border .line.left {
+  stroke-width: 10px;
+  stroke-dasharray: 300 200;
+  stroke-dashoffset: -200;
+}
+.wrapper1 .container .border:hover .line {
+  stroke: #3895D3;
+}
+.wrapper1 .container .border:hover .left {
+  stroke-dasharray: 600 0;
+  stroke-dashoffset: 100;
+}
