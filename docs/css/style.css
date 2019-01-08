@@ -1659,7 +1659,7 @@ a.logo:hover {
   line-height: 105px;
   font-size: 16px;
   text-align: center;
-  color: #fff;
+  color: #3895D3;
   z-index: 6;
   -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
   -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
@@ -1678,8 +1678,8 @@ a.logo:hover {
   display: block;
   width: 40px;
   height: 40px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 2px solid #3895D3;
+  border-bottom: 2px solid #3895D3;
   position: absolute;
   top: 50%;
   margin-top: -20px;
@@ -1737,7 +1737,7 @@ a.logo:hover {
   width: 15px;
   height: 5px;
   display: block;
-  background: rgba(255,255,255,0.9);
+  background: #3895D3;
   position: relative;
   z-index: 1000 !important;
   -webkit-border-radius: 3px;
