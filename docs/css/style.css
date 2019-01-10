@@ -1801,11 +1801,11 @@ span.hs {
   color: rgba(255,255,255,0.9);
 }
 .hs-line-1 {
-  font-size: 4em;
+  font-size: 2.5em;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   margin-bottom: 10px;
-  text-transform: uppercase;
+ 
   letter-spacing: 2px;
 }
 .hs-line-2 {
@@ -3265,7 +3265,7 @@ span.icon-close {
 @media only screen and (max-width: 1024px) {
   .hs-line-5,
   .hs-line-1 {
-    font-size: 3.5em;
+    font-size: 2.5em;
   }
   .hs-line-4 {
     font-size: 3em;

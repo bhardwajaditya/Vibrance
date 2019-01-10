@@ -34,8 +34,8 @@ transform: scale(1,1) translate(0px, 0px);
   font-family: "Roboto";
   font-weight: 600;
   letter-spacing: 2px;
-  color: white;
-  background:darkcyan;
+  color: black;
+  background:white;
   -webkit-animation: bounce 0.75s infinite;
   cursor: pointer;
 }
