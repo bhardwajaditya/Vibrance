@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 @-webkit-keyframes bounce {
   0% {
@@ -19,25 +19,24 @@ transform: scale(1,1) translate(0px, 0px);
 }
 
 .bounce {
-  /* POsitioning */
-  position: absolute;
-  top:70vh;
-  left:100px;
-
-  border-radius: 20px;
-  text-align:center;
-  margin:0 auto;
-  margin-top:100px;
-  height:20px;
-  width:300px;
-  padding:20px;  
-  font-family: "Roboto";
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: black;
-  background:white;
-  -webkit-animation: bounce 0.75s infinite;
-  cursor: pointer;
+    /* POsitioning */
+    position: absolute;
+    top: 70vh;
+    left: 100px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 20px;
+    width: 300px;
+    padding: 20px;
+    font-family: 'Lobster',cursive;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: black;
+    background: white;
+    -webkit-animation: bounce 0.75s infinite;
+    cursor: pointer;
 }
 
 .bounce .text{
@@ -45,81 +44,81 @@ transform: scale(1,1) translate(0px, 0px);
 }
 
 @media(max-width: 450px){
-      .bounce {
+    .bounce {
         position: absolute;
-        top:70vh;
-  left:10%;
-  text-align: center;
-  border-radius: 20px;
-  text-align:center;
-  margin:0 auto;
-  margin-top:120px;
-  height:20px;
-  width:300px;
-  padding:20px;  
-  font-family: "Roboto";
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: white;
-  background:darkcyan;
-  -webkit-animation: bounce 0.75s infinite;
-  cursor: pointer;
-      }
+        top: 70vh;
+        left: 10%;
+        text-align: center;
+        border-radius: 20px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 120px;
+        height: 20px;
+        width: 300px;
+        padding: 20px;
+        font-family: 'Lobster',cursive;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: white;
+        background: darkcyan;
+        -webkit-animation: bounce 0.75s infinite;
+        cursor: pointer;
+    }
       .wrapper1{
         margin: 10px;
       }
       .button-wrap-2 {
         padding: 0px 100px;
       }
-      .button-wrap-2 .circle {
-  /* Inner circle */
-  width: 160px;
-  height: 160px;
-  /* 20px smaller b/c of margin below */
-  margin: 10px;
-  background-color: #fff;
-  font-family: Permanent Marker;
-  border-radius: 80px;
-  font-size: 5.5vw;
-  color: #3895D3;
-  /* Overlays this circle on the .circle */
-  z-index: 2;
-  position: absolute;
-  /* centers the text: adjust to desired size */
-  padding: 35px 10px;
-  text-align: center;
-  /* shadow */
-  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
-}
+        .button-wrap-2 .circle {
+            /* Inner circle */
+            width: 160px;
+            height: 160px;
+            /* 20px smaller b/c of margin below */
+            margin: 10px;
+            background-color: #fff;
+            font-family: 'Lobster',cursive;
+            border-radius: 80px;
+            font-size: 5.5vw;
+            color: #3895D3;
+            /* Overlays this circle on the .circle */
+            z-index: 2;
+            position: absolute;
+            /* centers the text: adjust to desired size */
+            padding: 35px 10px;
+            text-align: center;
+            /* shadow */
+            -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+            -o-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+        }
   }
 
   @media(min-width: 450px){
     .button-wrap-2 .circle {
-  /* Inner circle */
-  width: 160px;
-  height: 160px;
-  /* 20px smaller b/c of margin below */
-  margin: 10px;
-  background-color: #fff;
-  font-family: Permanent Marker;
-  border-radius: 80px;
-  font-size: 1.5vw;
-  color: #3895D3;
-  /* Overlays this circle on the .circle */
-  z-index: 2;
-  position: absolute;
-  /* centers the text: adjust to desired size */
-  padding: 35px 10px;
-  text-align: center;
-  /* shadow */
-  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
-}
+        /* Inner circle */
+        width: 160px;
+        height: 160px;
+        /* 20px smaller b/c of margin below */
+        margin: 10px;
+        background-color: #fff;
+        font-family: 'Lobster',cursive;
+        border-radius: 80px;
+        font-size: 1.3vw;
+        color: #3895D3;
+        /* Overlays this circle on the .circle */
+        z-index: 2;
+        position: absolute;
+        /* centers the text: adjust to desired size */
+        padding: 35px 10px;
+        text-align: center;
+        /* shadow */
+        -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+        -o-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+    }
   }
 
   .example {
