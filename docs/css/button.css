@@ -105,7 +105,7 @@ transform: scale(1,1) translate(0px, 0px);
         background-color: #fff;
         font-family: 'Lobster',cursive;
         border-radius: 80px;
-        font-size: 1.5vw;
+        font-size: 1.3vw;
         color: #3895D3;
         /* Overlays this circle on the .circle */
         z-index: 2;
