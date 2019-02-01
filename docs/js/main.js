@@ -460,7 +460,7 @@
 const countdown = document.querySelector('#countdown');
 
 // Set launch date
-const launchDate = new Date('Feb 20, 2019 06:00:00').getTime();
+const launchDate = new Date('Feb 21, 2019 10:00:00').getTime();
 
 // Update every second
 const intv1 = setInterval(function(){
