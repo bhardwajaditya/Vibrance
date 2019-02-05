@@ -24,6 +24,7 @@
   <link href="css/style.changer.css" rel="stylesheet">
   <link href="css/button.css" rel="stylesheet">
   <link id="theme" href="css/theme/theme-red-2.css" rel="stylesheet">
+
   <!-- <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" /> -->
 
   <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
@@ -172,11 +173,11 @@ if (document.location.search.match(/type=embed/gi)) {
           <!-- Item With Sub-->
 
           <!-- End Sub-->
-          <li><a href="#about">About</a></li>
-          </li>
+          <!-- <li><a href="#about">About</a></li>
+          </li> -->
           <!-- End Item With Sub-->
           <!-- <li><a href="#service">Events</a></li> -->
-          <li><a href="#portfolio">Gallery</a></li>
+          <li><a id="open-modal-button" href="#mymodal" data-target="#mymodal" data-toggle="modal" >Schedule </a></li>
           <li><a href="sponsor.html">Sponsors</a></li>
           <li><a href="https://www.vitchennaievents.com/register">Register Events</a></li>
           <li><a href="proshows">Proshows</a></li>
@@ -187,6 +188,8 @@ if (document.location.search.match(/type=embed/gi)) {
       </div>
     </div>
   </nav>
+
+  
   <div id="socialarea">
     <ul id="sociallist">
       <li class="facebook_social"> <a href="https://www.facebook.com/VibranceVIT/" target="_new"><i class="fa fa-facebook"></i></a> </li>
@@ -234,7 +237,47 @@ if (document.location.search.match(/type=embed/gi)) {
 
 
   </section>
-  
+  <!-- Schedule -->
+<div  aria-labelledby="myModalLabel" class="modal fade" id="mymodal" role="dialog" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="carousel slide carousel-fade" data-interval="false" data-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3 style="margin-bottom: 0">DAY 1</h3>
+                    <img src="img/day1.jpg" style="max-width: 90%;max-height: 70%" class="img-fluid">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-12 ">
+                    <h3 style="margin-bottom: 0">DAY 2</h3>
+                    <img src="img/day2.jpg" style="max-width: 90%;max-height: 70%" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-12 ">
+                    <h3 style="margin-bottom: 0;max-width: 90%;max-height: 90%">DAY 3</h3>
+                    <img src="img/day3.jpg" style="max-width: 90%;max-height: 70%" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              
+            <a class="left carousel-control" data-slide="prev" href="#carousel" role="button"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" data-slide="next" href="#carousel" role="button"><span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Schedule -->
 
 
 
@@ -634,6 +677,10 @@ if (document.location.search.match(/type=embed/gi)) {
     </div>
   </div>
   <!--JS sctipts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/vendor/jquery-2.1.3.min.js"></script>
   <script src="js/smoothscroll.js"></script>
   <script src="js/plagins.js"></script>

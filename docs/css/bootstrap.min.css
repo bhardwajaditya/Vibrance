@@ -6139,6 +6139,7 @@ button.close {
 }
 
 .modal-content {
+    text-align: center;
     position: relative;
     background-color: #fff;
     -webkit-background-clip: padding-box;
@@ -6234,7 +6235,7 @@ button.close {
 
 @media (min-width: 992px) {
     .modal-lg {
-        width: 900px
+        width: 90%
     }
 }
 
@@ -6508,6 +6509,7 @@ button.close {
 }
 
 .carousel-inner > .item {
+    text-align: center;
     position: relative;
     display: none;
     -webkit-transition: .6s ease-in-out left;

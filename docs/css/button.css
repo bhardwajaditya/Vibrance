@@ -30,13 +30,13 @@ transform: scale(1,1) translate(0px, 0px);
     height: 20px;
     width: 300px;
     padding: 20px;
-    font-family: 'Lobster',cursive;
+    font-family: 'Roboto';
     font-weight: 600;
     letter-spacing: 2px;
     color: black;
     background: white;
-    -webkit-animation: bounce 0.75s infinite;
-    cursor: pointer;
+    /*-webkit-animation: bounce 0.75s infinite;
+*/    cursor: pointer;
 }
 
 .bounce .text{
@@ -56,12 +56,12 @@ transform: scale(1,1) translate(0px, 0px);
         height: 20px;
         width: 300px;
         padding: 20px;
-        font-family: 'Lobster',cursive;
+        font-family: 'Roboto';
         font-weight: 600;
         letter-spacing: 2px;
         color: white;
         background: darkcyan;
-        -webkit-animation: bounce 0.75s infinite;
+        /*-webkit-animation: bounce 0.75s infinite;*/
         cursor: pointer;
     }
       .wrapper1{
