@@ -131,7 +131,7 @@ body {
         margin-top: 150px
     }
     .lineup-artists .featured-image {
-        max-width: 40%
+        max-width: 450px
     }
     .lineup-artists .lineup-artists-wrap .lineup-artists-description {
         width: calc(100% - 360px)
@@ -180,7 +180,7 @@ body {
         max-width: 360px;
     }
 .lineup-artists .featured-image {
-        max-width: 400px;
+        max-width: 450px;
     }
 }
 
