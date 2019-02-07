@@ -1,0 +1,168 @@
+.flex {
+    display: flex
+}
+
+body {
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #e6e6e6
+}
+
+@font-face {
+    font-family: mountains;
+    src: url(fonts/beyond_the_mountains.ttf);
+    src: url(fonts/beyond_the_mountains.otf);
+    font-weight: 400
+}
+
+.d-col-n {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%
+}
+
+
+
+.content-section {
+    /*min-height: 4640px;*/
+    width: 100%;
+    padding-bottom: 120px;
+    background: url(../img/pro-bg.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.content-section .middle-cover {
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+.content-section .middle-cover img {
+    max-width: 100%
+}
+
+.lineup-artists-headline {
+    margin-top: 115px
+}
+
+.lineup-artists-headline .entry-title p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7a7a7a
+}
+
+.lineup-artists-headline .entry-title h2 {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    color: #000
+}
+
+.lineup-artists {
+    padding-top: 80px
+}
+
+.lineup-artists .featured-image {
+    margin: 0;
+    padding: 0
+}
+
+.lineup-artists .featured-image {
+    width: 100%
+}
+
+.lineup-artists .featured-image img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.lineup-artists .lineup-artists-wrap {
+    margin-top: 80px
+}
+
+.lineup-artists .lineup-artists-wrap .lineup-artists-description {
+    position: relative;
+    width: 100%
+}
+
+.lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 50px 40px 115px 50px rgba(0, 0, 0, .1)
+}
+
+.lineup-artists-description .entry-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #171717
+}
+
+.lineup-artists-description .entry-content {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #999;
+    line-height: 2
+}
+
+.lineup-artists-wrap .box-link {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: -24px;
+    right: 50px;
+    z-index: 999
+}
+
+@media screen and (min-width:768px) {
+    .lineup-artists .lineup-artists-wrap {
+        margin-top: 30px
+    }
+    .lineup-artists .featured-image {
+        max-width: 360px
+    }
+    .lineup-artists .lineup-artists-wrap .lineup-artists-description {
+        width: calc(100% - 360px)
+    }
+    .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
+        position: absolute;
+        z-index: 99;
+        top: 100px;
+        left: 10px;
+        width: calc(100% + 75px)
+    }
+    .lineup-artists .lineup-artists-wrap:nth-of-type(even) .lineup-artists-description-container {
+        right: 10px;
+        left: auto
+    }
+    .lineup-artists .lineup-artists-wrap:nth-of-type(even) .box-link {
+        right: auto;
+        left: 50px
+    }
+}
+
+@media screen and (min-width:992px) {
+    .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
+        padding: 50px
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
+        max-width: 660px
+    }
+    .lineup-artists .lineup-artists-wrap:nth-last-of-type(1) {
+        margin-left: 80px
+    }
+}
+
