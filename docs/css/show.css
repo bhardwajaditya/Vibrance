@@ -87,12 +87,14 @@ body {
 }
 
 .lineup-artists .lineup-artists-wrap {
-    margin-top: 80px
+    margin-top: 150px;
+    min-height: 500px;
 }
 
 .lineup-artists .lineup-artists-wrap .lineup-artists-description {
     position: relative;
-    width: 100%
+    width: 100%;
+    /*overflow-x: hidden;*/
 }
 
 .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
@@ -126,10 +128,10 @@ body {
 
 @media screen and (min-width:768px) {
     .lineup-artists .lineup-artists-wrap {
-        margin-top: 30px
+        margin-top: 80px
     }
     .lineup-artists .featured-image {
-        max-width: 360px
+        max-width: 40%
     }
     .lineup-artists .lineup-artists-wrap .lineup-artists-description {
         width: calc(100% - 360px)
@@ -163,6 +165,16 @@ body {
     }
     .lineup-artists .lineup-artists-wrap:nth-last-of-type(1) {
         margin-left: 80px
+    }
+}
+
+@media screen and (max-width: 450px){
+    .lineup-artists .lineup-artists-wrap {
+    margin-top: 80px;
+    min-height: 360px;
+}
+.lineup-artists .featured-image {
+        max-width: 360px;
     }
 }
 
