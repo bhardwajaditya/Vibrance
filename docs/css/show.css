@@ -170,7 +170,7 @@ body {
 
 @media screen and (max-width: 450px){
     .lineup-artists .lineup-artists-wrap {
-    margin-top: 80px;
+    margin-top: 150px;
     min-height: 360px;
 }
 .lineup-artists .featured-image {
