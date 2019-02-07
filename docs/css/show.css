@@ -179,5 +179,8 @@ body {
 .lineup-artists .featured-image {
         max-width: 360px;
     }
+.lineup-artists .featured-image {
+        max-width: 360px
+    }
 }
 
